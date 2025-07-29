@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Lino - Desenvolvedor Front-end</title>
+    <meta name="description" content="Portfólio de Matheus Lino, desenvolvedor front-end especializado em Vue.js, HTML, CSS e JavaScript">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Devicon para ícones de tecnologias -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
+    <!-- Font Awesome para ícones gerais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Matheus<span class="neon-accent">Lino</span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#technologies" class="nav-link">Tecnologias</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Soft Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-image-container">
+                    <div class="profile-image">
+                        <img src="./unnamed.jpg" alt="Matheus Lino" id="profile-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Olá, eu sou <span class="neon-accent">Matheus Lino</span>
+                    </h1>
+                    <p class="hero-subtitle">Desenvolvedor Front-end</p>
+                    <p class="hero-description">
+                        Transformando ideias em soluções digitais com propósito
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Conheça mais</a>
+                        <a href="#contact" class="btn btn-secondary">Entre em contato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre <span class="neon-accent">Mim</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Olá! Me chamo <strong>Matheus</strong>, tenho 22 anos, sou formado em <strong>Análise e Desenvolvimento de Sistemas</strong> pela UNIP e sou apaixonado por transformar ideias em soluções digitais com propósito.
+                    </p>
+                    <p>
+                        Moro em <strong>Campinas, SP</strong>, e já atuei como desenvolvedor front-end na <strong>GRV Software</strong>, onde participei do projeto Conect IoT usando Vue.js, HTML, CSS e um pouco de TypeScript.
+                    </p>
+                    <p>
+                        Tenho domínio em <strong>HTML, CSS, JavaScript e Vue.js</strong>, além de conhecimentos básicos em Python e SQL. Gosto de unir lógica com criatividade, e estou em constante evolução para crescer como desenvolvedor, tanto no front quanto no back-end.
+                    </p>
+                    <p>
+                        Minhas soft skills são essenciais no meu trabalho: boa comunicação, trabalho em equipe, empatia, criatividade, organização, ética e vontade de aprender continuamente.
+                    </p>
+                    <p>
+                        Atualmente, estou em busca de novas oportunidades para retornar ao mercado de tecnologia, aprimorar meu inglês e expandir meus conhecimentos técnicos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <h2 class="section-title">Minhas <span class="neon-accent">Tecnologias</span></h2>
+            <div class="tech-grid">
+                <div class="tech-card" data-tech="HTML">
+                    <div class="tech-icon">
+                        <i class="devicon-html5-plain"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Estruturação semântica</p>
+                </div>
+                <div class="tech-card" data-tech="CSS">
+                    <div class="tech-icon">
+                        <i class="devicon-css3-plain"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Estilização e responsividade</p>
+                </div>
+                <div class="tech-card" data-tech="JavaScript">
+                    <div class="tech-icon">
+                        <i class="devicon-javascript-plain"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interatividade e lógica</p>
+                </div>
+                <div class="tech-card" data-tech="Vue.js">
+                    <div class="tech-icon">
+                        <i class="devicon-vuejs-plain"></i>
+                    </div>
+                    <h3>Vue.js</h3>
+                    <p>Framework reativo</p>
+                </div>
+                <div class="tech-card" data-tech="Python">
+                    <div class="tech-icon">
+                        <i class="devicon-python-plain"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Conhecimento básico</p>
+                </div>
+                <div class="tech-card" data-tech="SQL">
+                    <div class="tech-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL</h3>
+                    <p>Banco de dados</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soft Skills Section -->
+    <section id="skills" class="soft-skills">
+        <div class="container">
+            <h2 class="section-title">Soft <span class="neon-accent">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-badge">
+                    <i class="fas fa-comments"></i>
+                    <span>Comunicação clara</span>
+                </div>
+                <div class="skill-badge">
+                    <i class="fas fa-users"></i>
+                    <span>Trabalho em equipe</span>
+                </div>
+                <div class="skill-badge">
+                    <i class="fas fa-heart"></i>
+                    <span>Empatia</span>
+                </div>
+                <div class="skill-badge">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Criatividade</span>
+                </div>
+                <div class="skill-badge">
+                    <i class="fas fa-tasks"></i>
+                    <span>Organização</span>
+                </div>
+                <div class="skill-badge">
+                    <i class="fas fa-balance-scale"></i>
+                    <span>Ética</span>
+                </div>
+                <div class="skill-badge">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Vontade de aprender</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em <span class="neon-accent">Contato</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Nome</h3>
+                            <p>Matheus Lino</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>E-mail</h3>
+                            <p>matheuslinoeua@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Localização</h3>
+                            <p>Campinas, SP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/matheus-lino" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/matheus-lino" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Desenvolvido por <span class="neon-accent">Matheus Lino</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
